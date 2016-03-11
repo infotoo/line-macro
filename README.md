@@ -14,7 +14,7 @@ OUTPUT_FILE_PATH        Path of output file
 ## Syntax
 Each macroinstruction should start from the beginning of the line. Only empty spaces or tabs are accepted before the macroinstruction, Otherwise, the line will be considered as a normal line.
 
-Other normal lines will be sent to output directly without any changes.
+Normal lines will be sent to output directly without any changes.
 
 #### ~import
 Import external file from the FILE_PATH and replace the current line. The macroinstruction in the external file will be handled recursively.
