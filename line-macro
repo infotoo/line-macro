@@ -24,8 +24,8 @@
 
 if ( count($argv) < 2 )
 {
-    echo 'line-macro  INPUT_FILE_PATH  [OUTPUT_FILE_PATH]'."\n";
-    exit(1);
+	echo 'line-macro  INPUT_FILE_PATH  [OUTPUT_FILE_PATH]'."\n";
+	exit(1);
 }
 
 if ( !isset($argv[2]) )
